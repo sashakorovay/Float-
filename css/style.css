@@ -1,0 +1,96 @@
+@import url('reset.css');
+
+/* _____________Обязательно__________________ */
+
+.wrapper {
+  width: 1200px;
+  margin: 50px auto;
+}
+
+/* ________Первый блок __________ */
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.float_a {
+  float: left;
+  outline: 1px solid black;
+  width: 400px;
+  height: 400px;
+  background: green;
+}
+
+/* ___________конец певого блока _____________, */
+
+
+/* ________Второй блок ___________________ */
+
+.block_2 > div {
+  float: left;
+}
+
+.float_b {
+  width: 800px;
+} 
+
+.float_c {
+  width: 400px;
+}
+
+.EE {
+  height: 200px;
+  outline: 1px solid black;
+  background: yellow;
+}
+
+.QQ {
+  height: 133.3px;
+  outline: 1px solid black;
+  background: blue;
+}
+
+/* ________Конец второго блока__________ */
+
+
+
+/* __________Третий блок___________ */
+
+.block_3 > div {
+  float: left;
+}
+
+.float_d {
+  width: 400px;
+  height: 400px;
+  outline: 1px solid black;
+  background: blue;
+}
+
+.float_e > div {
+  width: 800px;
+  height: 200px;
+  background: honeydew;
+  outline: 1px solid black;
+}
+
+.block_3-2 > div {
+  float: left;
+  width: 400px;
+}
+
+.float_f {
+  height: 200px;
+  outline: 1px solid black;
+  background: gold;
+}
+
+.float_g > div {
+  height: 100px;
+  outline: 1px solid black;
+  background: rgb(33, 168, 112);
+}
+
+/* _______________Конец третьего блока______________ */
